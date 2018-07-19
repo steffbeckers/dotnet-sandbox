@@ -6,6 +6,9 @@ using System.IO;
 
 namespace Sandbox
 {
+    /// <summary>
+    /// https://stackoverflow.com/questions/10168240/encrypting-decrypting-a-string-in-c-sharp/10177020#10177020
+    /// </summary>
     public static class StringCipher
     {
         // This constant is used to determine the keysize of the encryption algorithm in bits.
@@ -15,8 +18,14 @@ namespace Sandbox
         // This constant determines the number of iterations for the password bytes generation function.
         private const int DerivationIterations = 5697;
 
-        public static string Encrypt(string plainText, string passPhrase)
+        public static string Encrypt(string plainText, string passPhrase = null)
         {
+            // Steff - Provide a default password to encrypt and decrypt
+            if (passPhrase == null)
+            {
+                passPhrase = Properties.Settings.Default.PassPhrase;
+            }
+
             // Salt and IV is randomly generated each time, but is preprended to encrypted cipher text
             // so that the same Salt and IV values can be used when decrypting.  
             var saltStringBytes = Generate256BitsOfRandomEntropy();
@@ -52,8 +61,14 @@ namespace Sandbox
             }
         }
 
-        public static string Decrypt(string cipherText, string passPhrase)
+        public static string Decrypt(string cipherText, string passPhrase = null)
         {
+            // Steff - Provide a default password to encrypt and decrypt
+            if (passPhrase == null)
+            {
+                passPhrase = Properties.Settings.Default.PassPhrase;
+            }
+
             // Get the complete stream of bytes that represent:
             // [32 bytes of Salt] + [32 bytes of IV] + [n bytes of CipherText]
             var cipherTextBytesWithSaltAndIv = Convert.FromBase64String(cipherText);
