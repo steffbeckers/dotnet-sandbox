@@ -46,10 +46,14 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="StringCipherTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexTests.cs" />
+    <Compile Include="DateTimeTests.cs" />
+    <Compile Include="XMLTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
