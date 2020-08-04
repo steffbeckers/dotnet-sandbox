@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Sandbox.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="PassPhrase" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">b6f75a139bec9f52ad4be7b95792c47d</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>
