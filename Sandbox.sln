@@ -5,11 +5,17 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Dapper.API", "Sandbox.Dapper.API\Sandbox.Dapper.API.csproj", "{351D8C57-3AD0-4247-A91D-AB582441E8D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Dapper.Core", "Sandbox.Dapper.Core\Sandbox.Dapper.Core.csproj", "{D4A9B964-32EE-4072-B784-5F8E1E00832B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Dapper.Core", "Sandbox.Dapper.Core\Sandbox.Dapper.Core.csproj", "{D4A9B964-32EE-4072-B784-5F8E1E00832B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Dapper.Framework", "Sandbox.Dapper.Framework\Sandbox.Dapper.Framework.csproj", "{910DFB94-E32E-4146-A25F-5E4D21D96E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Dapper.Framework", "Sandbox.Dapper.Framework\Sandbox.Dapper.Framework.csproj", "{910DFB94-E32E-4146-A25F-5E4D21D96E6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Dapper.Infrastructure", "Sandbox.Dapper.Infrastructure\Sandbox.Dapper.Infrastructure.csproj", "{3C9A218A-9055-4F60-8E64-3EF19EEA7568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Dapper.Infrastructure", "Sandbox.Dapper.Infrastructure\Sandbox.Dapper.Infrastructure.csproj", "{3C9A218A-9055-4F60-8E64-3EF19EEA7568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Worker", "Sandbox.Worker\Sandbox.Worker.csproj", "{F4791E91-0D28-410D-A441-BB7CE82F585B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Testing.xUnit", "Sandbox.Testing.xUnit\Sandbox.Testing.xUnit.csproj", "{FBAD1ABA-BBE4-426E-B53B-9FFED46BE779}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Testing", "Sandbox.Testing\Sandbox.Testing.csproj", "{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{3C9A218A-9055-4F60-8E64-3EF19EEA7568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9A218A-9055-4F60-8E64-3EF19EEA7568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C9A218A-9055-4F60-8E64-3EF19EEA7568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4791E91-0D28-410D-A441-BB7CE82F585B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4791E91-0D28-410D-A441-BB7CE82F585B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4791E91-0D28-410D-A441-BB7CE82F585B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4791E91-0D28-410D-A441-BB7CE82F585B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAD1ABA-BBE4-426E-B53B-9FFED46BE779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAD1ABA-BBE4-426E-B53B-9FFED46BE779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAD1ABA-BBE4-426E-B53B-9FFED46BE779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAD1ABA-BBE4-426E-B53B-9FFED46BE779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
