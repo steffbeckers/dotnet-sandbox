@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>dotnet-Sandbox.Worker-47A5A0ED-6478-4340-9F20-CF3E7E319FBE</UserSecretsId>
   </PropertyGroup>
 

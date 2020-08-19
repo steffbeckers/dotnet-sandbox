@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Testing.xUnit", "Sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Testing", "Sandbox.Testing\Sandbox.Testing.csproj", "{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.ConsoleApp", "Sandbox.ConsoleApp\Sandbox.ConsoleApp.csproj", "{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.AsyncAwait", "Sandbox.AsyncAwait\Sandbox.AsyncAwait.csproj", "{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
