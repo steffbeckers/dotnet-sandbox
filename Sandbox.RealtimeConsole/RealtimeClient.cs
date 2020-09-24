@@ -67,6 +67,9 @@ namespace Sandbox.RealtimeConsole
 
                 // Start initial realtime connection
                 await Connect();
+
+                // Keep client alive
+                await Task.Delay(10000, stoppingToken);
             }
         }
 
@@ -86,7 +89,7 @@ namespace Sandbox.RealtimeConsole
             }
             catch (Exception ex)
             {
-                _logger.LogError("Not able to connect. Is the API up and running?");
+                _logger.LogError("Not able to connect. Is the API up and running? " + _configuration.GetValue<string>("API"));
                 _logger.LogError(ex.ToString());
             }
         }
