@@ -21,6 +21,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.ConsoleApp", "Sandb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.AsyncAwait", "Sandbox.AsyncAwait\Sandbox.AsyncAwait.csproj", "{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.SharePoint", "Sandbox.SharePoint\Sandbox.SharePoint.csproj", "{FEEB0788-12B8-4F54-9867-D9C4B5DD838F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.RealtimeConsole", "Sandbox.RealtimeConsole\Sandbox.RealtimeConsole.csproj", "{28959C01-A721-4D39-B90D-AD19CFD9AE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.RealtimeConsole.API", "Sandbox.RealtimeConsole.API\Sandbox.RealtimeConsole.API.csproj", "{8C3FE47B-85AF-4DA7-AED4-35FC8A8CB751}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +69,18 @@ Global
 		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEB0788-12B8-4F54-9867-D9C4B5DD838F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEB0788-12B8-4F54-9867-D9C4B5DD838F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEB0788-12B8-4F54-9867-D9C4B5DD838F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEB0788-12B8-4F54-9867-D9C4B5DD838F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28959C01-A721-4D39-B90D-AD19CFD9AE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28959C01-A721-4D39-B90D-AD19CFD9AE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28959C01-A721-4D39-B90D-AD19CFD9AE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28959C01-A721-4D39-B90D-AD19CFD9AE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3FE47B-85AF-4DA7-AED4-35FC8A8CB751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FE47B-85AF-4DA7-AED4-35FC8A8CB751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FE47B-85AF-4DA7-AED4-35FC8A8CB751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FE47B-85AF-4DA7-AED4-35FC8A8CB751}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
