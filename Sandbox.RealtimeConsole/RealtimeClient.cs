@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -55,6 +56,7 @@ namespace Sandbox.RealtimeConsole
                 {
                     _logger.LogInformation("Open file command executed.");
                     _logger.LogInformation("Path: " + path);
+                    _logger.LogInformation("File exists: " + File.Exists(path));
 
                     new Process()
                     {

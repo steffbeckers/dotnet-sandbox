@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="Sandbox Realtime Console" Language="1033" Version="1.0.0.0" Manufacturer="Steff Beckers" UpgradeCode="7a700953-1a3d-4031-88cb-7eaaaa5ff179">
-		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
-
-		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
-		<MediaTemplate />
-
-		<Feature Id="ProductFeature" Title="Sandbox.RealtimeConsole.Installer" Level="1">
-			<ComponentGroupRef Id="ProductComponents" />
-		</Feature>
-	</Product>
-
-	<Fragment>
-		<Directory Id="TARGETDIR" Name="SourceDir">
-			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLFOLDER" Name="Sandbox.RealtimeConsole.Installer" />
-			</Directory>
-		</Directory>
-	</Fragment>
-
-	<Fragment>
-		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-			<Component Id="ProductComponent">
-				<File Source="$(var.Sandbox.RealtimeConsole.TargetPath)" />
-			</Component>
-		</ComponentGroup>
-	</Fragment>
+  <Product Id="*" Name="Sandbox Realtime Console" Language="1033" Version="1.0.2.0" Manufacturer="Steff Beckers" UpgradeCode="f08191cf-461e-481b-a2a1-6f54d6ae5331">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <Property Id="PREVIOUSVERSIONSINSTALLED" Secure="yes" />
+    <Upgrade Id="f08191cf-461e-481b-a2a1-6f54d6ae5331">
+      <UpgradeVersion
+         Minimum="1.0.0" Maximum="99.0.0"
+         Property="PREVIOUSVERSIONSINSTALLED"
+         IncludeMinimum="yes" IncludeMaximum="no" />
+    </Upgrade>
+    <MajorUpgrade DowngradeErrorMessage="A newer version of Sandbox Realtime Console is already installed." />
+    <!-- Embed cab files, don't include them in the output -->
+    <MediaTemplate EmbedCab="yes"/>
+    <Feature Id="ProductFeature" Title="Sandbox Realtime Console Installer" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+  </Product>
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="SandboxRealtimeConsole" />
+      </Directory>
+    </Directory>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="ProductComponent" Guid="5BB7300D-C29F-4C87-B461-AAE3AA4EB56D">
+        <File Id="Sandbox.RealtimeConsole" KeyPath="yes" Source="..\Sandbox.RealtimeConsole\bin\Release\netcoreapp3.1\publish\Sandbox.RealtimeConsole.exe"/>
+        <ServiceInstall
+          Id="ServiceInstaller"
+          Type="ownProcess"
+          Name="Sandbox.RealtimeConsole"
+          DisplayName="Sandbox Realtime Console"
+          Description="Sandbox Realtime Console by Steff Beckers"
+          Start="auto"
+          Account="LocalSystem"
+          ErrorControl="normal" />
+        <ServiceControl
+          Id="ServiceInstaller"
+          Start="install"
+          Stop="both"
+          Remove="uninstall"
+          Name="Sandbox.RealtimeConsole"
+          Wait="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
 </Wix>
