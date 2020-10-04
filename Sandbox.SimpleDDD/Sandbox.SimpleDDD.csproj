@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.0.0</Version>
+    <PackageId>Sandbox.SimpleDDD</PackageId>
+    <RootNamespace>Sandbox.SimpleDDD</RootNamespace>
+    <AssemblyName>Sandbox.SimpleDDD</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="GoldenEye.Backend.Core" Version="7.0.0" />
+    <PackageReference Include="GoldenEye.Backend.Core.DDD" Version="8.0.0" />
+    <PackageReference Include="GoldenEye.Backend.Core.Marten" Version="7.0.0" />
+    <PackageReference Include="GoldenEye.Backend.Core.WebApi" Version="7.0.0" />
+    <PackageReference Include="GoldenEye.Shared.Core" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

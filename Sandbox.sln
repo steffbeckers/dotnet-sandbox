@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.RealtimeConsole.API
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Sandbox.RealtimeConsole.Installer", "Sandbox.RealtimeConsole.Installer\Sandbox.RealtimeConsole.Installer.wixproj", "{4EEFC494-75BB-464D-BE23-ACC34510EF62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Auth.AzureAD.API", "Sandbox.Auth.AzureAD.API\Sandbox.Auth.AzureAD.API.csproj", "{7C4F731D-3C3C-4D63-9304-C637B007337B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Auth.AzureAD.API", "Sandbox.Auth.AzureAD.API\Sandbox.Auth.AzureAD.API.csproj", "{7C4F731D-3C3C-4D63-9304-C637B007337B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.SimpleDDD", "Sandbox.SimpleDDD\Sandbox.SimpleDDD.csproj", "{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +151,14 @@ Global
 		{7C4F731D-3C3C-4D63-9304-C637B007337B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C4F731D-3C3C-4D63-9304-C637B007337B}.Release|x86.ActiveCfg = Release|Any CPU
 		{7C4F731D-3C3C-4D63-9304-C637B007337B}.Release|x86.Build.0 = Release|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
