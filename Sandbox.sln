@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Auth.AzureAD.API", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.SimpleDDD", "Sandbox.SimpleDDD\Sandbox.SimpleDDD.csproj", "{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Mediatr.API", "Sandbox.Mediatr.API\Sandbox.Mediatr.API.csproj", "{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,14 @@ Global
 		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|x86.ActiveCfg = Release|Any CPU
 		{F4E34A4E-D08C-47EE-92D3-D28C8E4CD7E2}.Release|x86.Build.0 = Release|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
