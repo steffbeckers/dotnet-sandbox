@@ -33,7 +33,8 @@ namespace Sandbox.RealtimeConsole
             {
                 // Setup a connection to the realtime hub
                 this.realtimeConnection = new HubConnectionBuilder()
-                    .WithUrl(_configuration.GetValue<string>("API") + "/realtime-hub")
+                    //.WithUrl(_configuration.GetValue<string>("API") + "/realtime-hub")
+                    .WithUrl("http://localhost:5000/api/realtime-hub")
                     .WithAutomaticReconnect()
                     .Build();
 
@@ -48,7 +49,7 @@ namespace Sandbox.RealtimeConsole
                 // Test
                 this.realtimeConnection.On("test", async () =>
                 {
-                    _logger.LogInformation("Test command executed.");
+                    _logger.LogInformation("Test command executed!");
                 });
 
                 // Open file
@@ -91,7 +92,7 @@ namespace Sandbox.RealtimeConsole
             }
             catch (Exception ex)
             {
-                _logger.LogError("Not able to connect. Is the API up and running? " + _configuration.GetValue<string>("API"));
+                _logger.LogError("Not able to connect. Is the API up and running?");
                 _logger.LogError(ex.ToString());
             }
         }
