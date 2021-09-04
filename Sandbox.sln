@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Dapper.API", "Sandbox.Dapper.API\Sandbox.Dapper.API.csproj", "{351D8C57-3AD0-4247-A91D-AB582441E8D0}"
 EndProject
@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.SimpleDDD", "Sandbo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Mediatr.API", "Sandbox.Mediatr.API\Sandbox.Mediatr.API.csproj", "{79CE9758-B229-4FAB-9E0F-31A225C5BC4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.WindowsService", "Sandbox.WindowsService\Sandbox.WindowsService.csproj", "{0BC09C0D-BEE1-4393-BFF7-D192396F676E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.WindowsService", "Sandbox.WindowsService\Sandbox.WindowsService.csproj", "{0BC09C0D-BEE1-4393-BFF7-D192396F676E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.NET6.API", "Sandbox.NET6.API\Sandbox.NET6.API.csproj", "{DF1BA255-1476-471E-8C34-9C765319078F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +181,14 @@ Global
 		{0BC09C0D-BEE1-4393-BFF7-D192396F676E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BC09C0D-BEE1-4393-BFF7-D192396F676E}.Release|x86.ActiveCfg = Release|Any CPU
 		{0BC09C0D-BEE1-4393-BFF7-D192396F676E}.Release|x86.Build.0 = Release|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
