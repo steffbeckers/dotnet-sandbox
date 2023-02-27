@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Testing.xUnit", "Sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Testing", "Sandbox.Testing\Sandbox.Testing.csproj", "{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.ConsoleApp", "Sandbox.ConsoleApp\Sandbox.ConsoleApp.csproj", "{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.AsyncAwait", "Sandbox.AsyncAwait\Sandbox.AsyncAwait.csproj", "{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.SharePoint", "Sandbox.SharePoint\Sandbox.SharePoint.csproj", "{FEEB0788-12B8-4F54-9867-D9C4B5DD838F}"
@@ -37,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.Mediatr.API", "Sand
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.WindowsService", "Sandbox.WindowsService\Sandbox.WindowsService.csproj", "{0BC09C0D-BEE1-4393-BFF7-D192396F676E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.NET6.API", "Sandbox.NET6.API\Sandbox.NET6.API.csproj", "{DF1BA255-1476-471E-8C34-9C765319078F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox.NET6.API", "Sandbox.NET6.API\Sandbox.NET6.API.csproj", "{DF1BA255-1476-471E-8C34-9C765319078F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.TimeZones", "Sandbox.TimeZones\Sandbox.TimeZones.csproj", "{186A2BD7-D64C-4242-9305-DDB85DE9AE77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,14 +103,6 @@ Global
 		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A1F6CBD-B0D6-4245-AAC3-DC606EA3E9E9}.Release|x86.Build.0 = Release|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Debug|x86.Build.0 = Debug|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Release|x86.ActiveCfg = Release|Any CPU
-		{3E1E5F7D-52CC-4A5B-9275-BB00622405C6}.Release|x86.Build.0 = Release|Any CPU
 		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A50404A-37B1-4946-B0F2-6706DA0EFB7D}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -189,6 +181,14 @@ Global
 		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|x86.ActiveCfg = Release|Any CPU
 		{DF1BA255-1476-471E-8C34-9C765319078F}.Release|x86.Build.0 = Release|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Debug|x86.Build.0 = Debug|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Release|x86.ActiveCfg = Release|Any CPU
+		{186A2BD7-D64C-4242-9305-DDB85DE9AE77}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
